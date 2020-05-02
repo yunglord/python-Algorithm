@@ -1,0 +1,7 @@
+def positive_negative(number):
+    if number > 0:
+        return "positive"
+    elif number < 0:
+        return "negetive"
+    else:
+        return "neither! it's a zero"
