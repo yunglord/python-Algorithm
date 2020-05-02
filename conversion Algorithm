@@ -1,0 +1,22 @@
+def convert_gallons_to_cups(gallons):
+    def gallons_to_quart(gallons):
+        print(f"{gallons} gallons to quarts")
+        return gallons * 4
+
+    def quarts_to_pints(quarts):
+        print(f"converting {quarts} quarts to pints")
+        return quarts * 2
+
+    def pints_to_cups(pints):
+        print(f"converting {pints} pints to cups")
+        return pints * 2
+
+    quarts = gallons_to_quart(gallons)
+    pints = quarts_to_pints(quarts)
+    cups = pints_to_cups(pints)
+    return cups
+
+
+print(convert_gallons_to_cups(5))
+print(convert_gallons_to_cups(3))
+print(convert_gallons_to_cups(5))
