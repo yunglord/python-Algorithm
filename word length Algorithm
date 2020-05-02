@@ -1,0 +1,8 @@
+def word_lengths(string):
+    lists = string.split(" ")
+    new_list = []
+    for word in lists:
+        new_list.append(len(word))
+        return(new_list)
+result = word_lengths("Mary Poppins was a nanny")
+print (result)
