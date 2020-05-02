@@ -1,0 +1,9 @@
+the_simsons = ["mark", "matthew", "luke", "john"]
+
+for character in the_simsons[::-1]:
+    print(f"{character} has a total of {len(character)} characters.")
+
+print(type(reversed(the_simsons)))
+
+for character in reversed(the_simsons):
+    print(f"{character} has a total of {len(character)} characters.")
