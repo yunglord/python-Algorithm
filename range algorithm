@@ -1,0 +1,10 @@
+row = 4
+start = 2
+sum = 0
+for i in range(row):
+    for j in range(i+1):
+        if j == 1:
+            sum += start
+        start += 1
+
+print(sum)
