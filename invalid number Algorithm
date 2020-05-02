@@ -1,0 +1,9 @@
+invalid_num = True
+
+while invalid_num:
+    user_value = int(input("please input a number above 10: "))
+    if user_value > 10:
+        print(f"thanks, that works {user_value} is a great choice")
+        invalid_num = False
+    else:
+        print("please try another number")
