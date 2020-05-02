@@ -1,0 +1,9 @@
+details= [["okoye", "uba", "1245"], ["okoro", "diamond", "1100"]]
+name = str(input("please input your name: "))
+bank = str(input("please add your bank in lowercase e.g access: "))
+pin = str(input("please input your pin: "))
+customer = [name, bank, pin]
+if customer in details:
+    print("thank you, you may proceed")
+else:
+    print("please check credentials and try again")
