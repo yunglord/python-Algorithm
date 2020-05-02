@@ -1,0 +1,16 @@
+values = [3, 6, 9, 12, 15, 18, 21, 24]
+other_values = [5, 10, 15, 20, 25, 30]
+
+
+def greatest_number(numeric):
+    total = numeric[0]
+    for number in numeric:
+        if number > total:
+            total = number
+    return total
+        # else:
+        #     total = sorted.numeric
+        #     return numeric[-1]
+    
+print(greatest_number([1, 2, 3]))
+print(greatest_number([1, 2, 3, 8, 4, 5]))
