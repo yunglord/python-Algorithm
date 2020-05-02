@@ -1,0 +1,11 @@
+powerball_numbers = [4, 8, 15, 16, 23, 42]
+
+def squares(numbers):
+    squares = []
+    for number in numbers:
+        squares.append(number ** 2)
+
+    return squares
+
+
+print (squares(powerball_numbers))
